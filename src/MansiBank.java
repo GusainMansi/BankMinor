@@ -3,7 +3,7 @@ package src;
 public class MansiBank implements Bank {
 private int accountNo;
 private String name;
-private int balance;
+protected int balance;
 private double interestRate;
 
 private String password="123";public void setPassword(String newPass,String oldPass){
